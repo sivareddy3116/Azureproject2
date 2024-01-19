@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Feedbackconstr-Web.config Connection String" description="Feedbackconstr Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:siva3116.database.windows.net,1433;Initial Catalog=FeedbackDb;Persist Security Info=False;User ID=siva3116;Password=siva@311605;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\pro\ 2\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Feedbackconstr']/@connectionString" />
+  </parameter>
+</parameters>
